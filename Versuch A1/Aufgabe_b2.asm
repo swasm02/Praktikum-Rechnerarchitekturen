@@ -1,6 +1,6 @@
 ; Umschaltfunktion fuer die Geschwindigkeit
 ; linker Schalter (Port 58H) -> schnell (Schalter oben)
-; rechter Schalter (Port 58H) -> langsam (Schalter unten)
+;                            -> langsam (Schalter unten)
 ; auf Port 58H Bits ueberpruefen: 80H (L), 01H (R)
 ; Schalter ergeben in oberen Stellung Eins-Pegel und 
 ;                  in unterer Stellung Null-Pegel            
