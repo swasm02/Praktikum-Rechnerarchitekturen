@@ -5,10 +5,7 @@
 ; Schalter ergeben in oberen Stellung Eins-Pegel und 
 ;                  in unterer Stellung Null-Pegel            
            
-MOV EDX, 400000H 
-MOV [verzoe], EDX       ; Wartezeit              
-
-    MOV ESI, OFFSET led  
+MOV ESI, OFFSET led  
     
 new: 
     MOV EDI, 8    
