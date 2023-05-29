@@ -44,7 +44,8 @@ LR:
 
 RL:
     ROL DL
-    CALL output 
+    CALL output
+    JMP SlowOrFast 
 
 output:
     MOV AL, DL
