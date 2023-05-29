@@ -27,4 +27,8 @@ zeit:
     MOV ECX, [verzoe]
 z1: DEC ECX
     JNZ z1
-    RET
+    RET        
+    
+; Datenbereich
+verzoe DD ? 		
+ziff DB 3FH,03H,6DH,67H,53H,76H,7EH,23H,7FH,77H
