@@ -41,12 +41,12 @@ LROrRL:
     JMP RL 
     
 LR:
-    ROR DL
+    ROR DL, 1
     CALL output
     JMP SlowOrFast 
 
 RL:
-    ROL DL 
+    ROL DL, 1 
     CALL output
     JMP SlowOrFast 
 
